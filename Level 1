@@ -1,0 +1,10 @@
+# Learning Python from Level 1 : Displaying Name, Age, City, Country living in along that input will be via user.
+
+fname=input("Enter your first name:")
+lname=input("Enter your last name:")
+fullname=fname+" "+ lname
+age=int(input("Enter your age:")
+country=input("Enter country name you living")
+city=input("Enter your city")
+
+print(f"My name is {fullname}. I am {age} years old. I live in {city},{country}.")
