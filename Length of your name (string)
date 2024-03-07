@@ -1,0 +1,11 @@
+# Find length of a name(string)
+name=input("Enter your name: ")
+name=name.capitalize()
+print(f"Number of characters in the name '{name}' has:",len(name))
+
+
+
+#check any string length
+type=input("Enter any word: ")
+type=type.capitalize()
+print(f"Number of characters in the word '{type}' has:",len(type))
