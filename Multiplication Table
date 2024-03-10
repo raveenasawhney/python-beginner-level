@@ -2,8 +2,11 @@
 def cal_table():  # defined a function
     num=int(input("Enter a number"))
     for i in range(1,11):
-        print(f"{num}*{i} = {num*i}")
-
+        if num>0:
+            print(f"{num}*{i} = {num*i}")
+    if not num>0:
+            print("Enter a positive number")
+ 
 
 # call a function
 cal_table()
