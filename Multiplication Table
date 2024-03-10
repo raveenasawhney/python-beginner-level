@@ -1,0 +1,10 @@
+# printing any number table with use of defined function by user
+def cal_table():  # defined a function
+    num=int(input("Enter a number"))
+    for i in range(1,11):
+        print(f"{num}*{i} = {num*i}")
+
+
+# call a function
+cal_table()
+
