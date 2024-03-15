@@ -1,0 +1,14 @@
+"""Print the sum of the current number and the previous number upto 10 initial numbers
+ in each iteration, print the sum of the current and previous number."""
+
+
+#for loop for iteration
+pre_num=0
+
+for cur_num in range(10):
+    
+    sum=pre_num+cur_num  #add previous +current & store it in 'sum'
+    
+    print(f"Current number {cur_num} Previous number {pre_num} Sum {sum}")
+    
+    pre_num=cur_num      # make previous to current 0+1,1+0,2+1 where current number increases
