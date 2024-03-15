@@ -1,0 +1,4 @@
+# print star pattern 5 lines triangle
+for i in range(1,6):
+    print(i*" * ")
+    
