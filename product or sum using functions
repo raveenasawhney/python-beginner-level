@@ -1,0 +1,27 @@
+'''finding product of the two numbers Given two integer numbers, 
+return their product only if the product is equal to or lower than 1000. Otherwise, return their sum.'''
+
+''' first condition: number1 = 20
+                     number2 = 30
+                     
+    second condition:number1 = 40
+                     number2 = 30'''
+
+
+# Here we will use function to reduce the task
+
+def mul_or_sum(num1,num2):
+    product=num1*num2  # multiplying the numbers and storing in 'product' variable
+    sum=num1+num2      # adding the numbers and storing in 'sum' variable
+    if product<=1000:
+        return product
+    else:
+        return sum
+
+
+
+        # apply first condiition
+print(mul_or_sum(20,30))
+
+# apply second condiition
+mul_or_sum(40,30)
